@@ -1,6 +1,6 @@
 -- pastewiki/convoylol
 
-ocal Players = game:GetService("Players") -- to know when players join and leave
+local Players = game:GetService("Players") -- to know when players join and leave
 local RunService = game:GetService("RunService") -- Heartbeat runs every frame
 local CollectionService = game:GetService("CollectionService") -- furniture is marked with a tag
 local PhysicsService = game:GetService("PhysicsService") -- collision groups
